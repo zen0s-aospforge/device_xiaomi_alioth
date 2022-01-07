@@ -49,6 +49,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/pocket/privapp-permissions-pocketmode.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-pocketmode.xml
 
+# RRO Overlays
+PRODUCT_PACKAGES += \
+    SettingsOverlayM2012K11AG \
+    SettingsOverlayM2012K11AI
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
