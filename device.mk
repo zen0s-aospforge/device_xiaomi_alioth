@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
 
 # RRO Overlays
 PRODUCT_PACKAGES += \
+    AliothNfc \
     SettingsOverlayM2012K11AC \
     SettingsOverlayM2012K11AG \
     SettingsOverlayM2012K11AI \
