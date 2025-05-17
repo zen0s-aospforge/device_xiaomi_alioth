@@ -17,4 +17,7 @@
         <item>alioth</item>
     </string-array>
 
+    <!-- Set true if Secure NFC functionality supported for all SKUs -->
+    <bool name="enable_secure_nfc_support">true</bool>
+
 </resources>
