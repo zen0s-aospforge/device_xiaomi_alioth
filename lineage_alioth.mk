@@ -18,6 +18,20 @@ TARGET_INCLUDES_MIUI_CAMERA := true
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
+RISING_MAINTAINER="zenzer0s"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 870" \
+    RisingMaintainer="zenzer0s"
+
+RISING_MAINTAINER := zenzer0s
+
+TARGET_ENABLE_BLUR := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
 PRODUCT_NAME := lineage_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
