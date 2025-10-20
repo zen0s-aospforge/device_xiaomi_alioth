@@ -52,3 +52,17 @@ DEX2OAT_THREADS := 2
 
 # Flash Strength 
 TORCH_STR_SUPPORTED := true
+
+# CPU governor support
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
+PERF_ANIM_OVERRIDE := true
+
+# GPU
+GPU_FREQS_PATH := /sys/devices/platform/28000000.mali/available_frequencies
+GPU_MIN_FREQ_PATH := /sys/devices/platform/28000000.mali/hint_min_freq
+
+# High Brightness Mode (HBM)
+HBM_SUPPORTED := true
+HBM_NODE := /sys/class/drm/card0/card0-DSI-1/disp_param
+
