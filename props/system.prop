@@ -1,0 +1,5 @@
+#Axion props
+
+# Enable or disable ScrollOptimizer globally
+persist.sys.perf.scroll_opt = true
+persist.sys.perf.scroll_opt.heavy_app = 1
