@@ -61,7 +61,3 @@ PERF_ANIM_OVERRIDE := true
 GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/available_frequencies
 GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
 
-# High Brightness Mode (HBM)
-HBM_SUPPORTED := true
-HBM_NODE := /sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm
-
